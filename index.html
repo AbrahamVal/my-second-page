@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registry</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student Registry</h1>
+        <p>Complete the next form</p>
+    </header>
+
+    <main>
+        <section class="form">
+            <h2>Student Data</h2>
+            <form id="studentForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Write your name">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="example@gmail.com">
+                <label for="age">Age:</label>
+                <input type="number" id="age" placeholder="Write your age">
+                <label for="major">Major:</label>
+                <select id="major">
+                    <option value="">Select a Major</option>
+                    <option value="Software Engineering">Software Engineering</option>
+                    <option value="industrial Engineering">Industrial Engineering</option>
+                    <option value="Business Administration">Business Administration</option>
+                    <option value="Accounting">Accounting</option>
+                </select>
+                <button type="submit">Register Student</button> 
+            </form>
+        </section>
+
+        <section id="result" class="result">
+            <h2>Registry Data</h2>
+            <p id="message">There is not any Student Registry yet...</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>My first web page with, CSS and Javascript</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
